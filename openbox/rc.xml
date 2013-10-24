@@ -346,7 +346,7 @@
     </keybind>
     <keybind key="W-m">
       <action name="Execute">
-        <command>mc</command>
+        <command>lxterminal --command=mc</command>
       </action>
     </keybind>
     <keybind key="W-t">
