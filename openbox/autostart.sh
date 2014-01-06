@@ -1,4 +1,4 @@
-eval $(gnome-keyring-daemon) &
+eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
 xcompmgr -c &
 tilda -h &
 feh --bg-scale /usr/share/pixmaps/debi.jpg &
